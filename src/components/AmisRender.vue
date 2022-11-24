@@ -16,7 +16,6 @@ const props= defineProps({
 onMounted(() => {
   // @ts-ignore
   var amis = amisRequire('amis/embed');
-  console.log(amis);
   
   let amisScoped = amis.embed('#box', props.amisjson);
 })
